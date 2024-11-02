@@ -1,20 +1,25 @@
-# 🌟 Stellar Classification Project
+# 🎬 Movie Review Sentiment Analysis
 
-In this project, we classify stars based on their spectral and astronomical properties to determine whether they are *dwarfs* or *giants*. 🌌
+Welcome to the Movie Review Sentiment Analysis project! This application leverages machine learning techniques to analyze and determine the sentiment of movie reviews from the IMDB dataset. It effectively classifies reviews as either positive or negative.
+## 🌐 [My Demo Link](https://sentimentanalysisimdb1.onrender.com)
 
-We use a dataset that contains various features such as *absolute magnitude* and *color index*, which help us accurately predict the type of star. By leveraging these properties, we aim to build a model that provides reliable star classification and contributes to the understanding of stellar evolution. 🚀
+## 📚 Overview
 
-## 🔍 Key Features:
-- *Spectral analysis*: Classifying stars based on their spectral type (SpType) and other light-related properties.
-- *Astronomical properties: Using key features like the star's **visual apparent magnitude* (Vmag), *distance from Earth* (Plx), and *absolute magnitude* (Amag) for accurate classification.
-- *Machine learning model: Developing a model that utilizes these features to improve classification accuracy between **dwarfs (0)* and *giants (1)*.
+This application is built using Python with the following technologies:
 
-## 📊 Dataset:
-The dataset contains several key features necessary for the classification task, including:
-- *Vmag*: Visual Apparent Magnitude of the Star.
-- *Plx*: Distance Between the Star and the Earth (Parallax).
-- *e_Plx*: Standard Error of Plx (remove rows with high e_Plx for better accuracy).
-- *B-V*: Color index (hot stars have lower or negative B-V, while cool stars have higher values).
-- *SpType*: Spectral Type of the star.
-- *Amag*: Absolute Magnitude of the Star.
-- *TargetClass: Whether the star is a **Dwarf (0)* or a *Giant (1)*.
+- **Pandas** for data manipulation
+- **Scikit-Learn** for machine learning models, specifically using the Multinomial Naive Bayes algorithm
+- **FastAPI** for building the web application
+- **HTML/CSS** for the front-end design
+
+## 🛠️ Features
+
+- **Sentiment Classification**: Classifies reviews into positive and negative sentiments.
+- **User-friendly Interface**: A simple and interactive web interface for users to submit reviews.
+- **Dynamic Movie Images**: Allows users to navigate through different movie images.
+- **Feedback and Recommendations**: Provides tailored feedback based on the sentiment of the review.
+- **...**: Additional features can be added as the project evolves.
+- **...**: Future improvements may include support for multi-language reviews.
+- **...**: Integration with external APIs for enhanced movie information.
+
+ 
